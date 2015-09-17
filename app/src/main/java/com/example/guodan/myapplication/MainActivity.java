@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<User> users = new ArrayList<>( );
         users.add(u);
         gp.setUsers(users);
-        gp.setName("22");
+        gp.setName("223333");
         String str = JSON.toJSONString(gp);
         System.out.println(str);
         Group g = JSONObject.parseObject(str,Group.class);
