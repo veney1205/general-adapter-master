@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         User u = new User();
         u.setId(1l);
-        u.setName("d1d");
+        u.setName("d1d222222");
         Group gp = new Group();
         ArrayList<User> users = new ArrayList<>( );
         users.add(u);
